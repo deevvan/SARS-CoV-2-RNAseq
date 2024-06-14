@@ -1,4 +1,4 @@
-# DeewanBajracharya2
+# SARS-CoV-2 RNAseq scripts
 This README file describes the various python and R scripts used in order to process the human/mouse RNAseq datasets with respiratory virus infections such as SARS-CoV-2, IAV and RSV.
 
 ## Table of Content:
