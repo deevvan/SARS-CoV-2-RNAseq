@@ -8,5 +8,4 @@ This README file describes the various python and R scripts used in order to pro
 4. bowtie2_align_extract.py: Python script to align high-quality mRNA reads from .fastq files to host genome using bowtie2 and bowtie2 host genome indices, followed by extraction of unaligned mRNA reads to be converted to .fastq files for kraken2 metagenomic analysis downstream.
 5. stringtie_bam_to_gtf.py: Python script to align reads from .bam file obtained from step 4 to respective gene annotation (.gtf) files to obtain transcript and gene counts using stringTie
 6. stringtie_native_preDE.py: Python script by stringTie developers that allows output .gtf files from step 5 into raw read count matrix for downstream DE analysis.
-7. deseq2_man2_human.R: R script that perform s DE and downstream analyses on the count matrix obtained from step 6.
-8. WGCNA_man2.R: R script to perform WGCNA on read count matrix obtained from step 6.
+7. deseq2_man2_human.R: R script that performs DE and downstream analyses and WGCNA on read count matrix obtained from step 6.
